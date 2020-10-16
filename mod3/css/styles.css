@@ -1,0 +1,167 @@
+body {
+  font-size: 16px;
+  color: #fff;
+  background: linear-gradient(90deg, #0afbff, #fc03fc,#fcf003);
+  font-family: 'Oxygen', sans-serif;
+  box-sizing: border-box;
+}
+#main-content p{
+ font-size: 0.8em;
+ text-align: justify;
+ margin:2px;
+
+}
+#main-content{
+	background-color: white;
+	opacity: 0.6;
+	color:red;
+	margin-bottom: 30px;
+	width: 95%;
+}
+#Chicken a{
+	font-size: 1.1em; 
+	color: #1408ff;
+	text-decoration: underline;
+}
+#Chicken h1{
+	text-align: center;
+	font-size: 1.2em;
+	font-weight: bold;
+	color:black;
+}
+#navbar-style{
+	background: 
+  linear-gradient(135deg, black 25%, transparent 25%) -50px 0,
+  linear-gradient(225deg, black 25%, transparent 25%) -50px 0,
+  linear-gradient(315deg, black 25%, transparent 25%),
+  linear-gradient(45deg, black 25%, transparent 25%);	
+  background-size: 2em 2em;
+  background-color: #232323;
+	  border-radius: 0;
+      border: 2px solid black; 
+      
+
+}
+.navbar-brand{
+	height: 85px;
+	padding-top: 30px;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 2px solid #ff08ff;
+}
+
+.navbar-header .navbar-brand h1{
+	position: absolute;
+	left: 20px;
+}
+
+#nav-list a {
+  text-align: center;
+}
+#text{
+	color:black;
+	font-weight: 500;
+}
+#nav-list{
+  margin-top: 0;
+  margin-bottom: 0;
+}
+#nav-list a{
+	color:black;
+	font-size: 1.2em;
+}
+#nav-list li{
+	background-color: white;
+}
+
+#nav-list li:hover:nth-child(1){
+	background-color: #0afbff;
+}
+#nav-list li:hover:nth-child(2){
+	background-color: #fc03fc;
+}
+#nav-list li:hover:nth-child(3){
+	background-color: #fcf003;
+}
+#collapsable-nav{
+	border-top: 1px solid black;
+}
+#nav-list li:nth-child(2){
+	border-top:1px solid black;
+	border-bottom:1px solid black;
+}
+.navbar-brand h1 { 
+  font-family:  sans-serif;
+  color: white;
+  text-align: right;
+  font-size: 1.5em;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 0;
+
+}
+@media (min-width: 1200px) {
+.navbar-brand {
+    height: 95px;
+  }
+ .navbar-brand h1 {
+    padding-top: 10px;
+   font-size:1.6em;
+  }
+  #Chicken div:nth-child(2){
+	border-right: 30px solid black;
+	border-left: 30px solid black;
+}
+}
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+.navbar-brand {
+    height: 90px;
+  }
+ .navbar-brand h1 {
+    padding-top: 10px;
+   font-size:1.5em;
+  }
+    #Chicken div:nth-child(2){
+	border-right: 30px solid black;
+	border-left: 30px solid black;
+}
+
+}
+
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+#Chicken div:nth-child(2){
+	border-left:15px solid black;
+}
+#Chicken div:nth-child(1){
+	border-right:15px solid black;
+}
+#Chicken div:nth-child(3){
+	border-top:30px solid black;
+}
+
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+  
+  .navbar-brand {
+    padding-top: 20px;
+    height: 75px;
+  }
+  .navbar-brand h1 {
+    padding-top: px;
+   font-size:1.6em;
+  }
+  .navbar-header button{
+  	margin-top: 15px;
+  }
+  #Chicken div:nth-child(2){
+	border-top:30px solid black;
+	border-bottom:30px solid black;
+}
+}
